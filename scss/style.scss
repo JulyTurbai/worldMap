@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.map {
+    width: 1110px;
+    height: 750px;
+    background: url(../img/map.png);
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    &__block {
+        padding: 0px 20px 60px 25px;
+    }
+    &__name {
+        font-size: 38px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        
+    }
+}
+.country {
+    width: 320px;
+    height: 260px;
+    background: rgba(#191919, 34%);
+    &__identification {
+        display: flex;
+        align-items: center;
+        font-size: 38px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 35px;
+    }
+    &__name {
+        margin-left: 10px;
+    }
+    &__description {
+        font-size: 26px;
+        color: white;
+        padding-bottom: 25px;
+    }
+}
+
+.map__block_america {
+    width: 370px;
+    height: 740px;
+    background: rgba(#28607f, 75%);
+}
+.map__block_europe {
+    width: 370px;
+    height: 370px;
+    background: rgba(#763883, 75%);
+}
+.map__block_africa {
+    width: 370px;
+    height: 370px;
+    background: rgba(#e3db27, 75%);
+}
+.map__block_asia {
+    width: 370px;
+    height: 370px;
+    background: rgba(#a71715, 75%);
+}
+.map__block_australia {
+    width: 370px;
+    height: 370px;
+    background: rgba(#be7d24, 75%);
+    
+}
+.city {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+    &__name {
+        margin-left: 10px;
+    }
+    &_newyork {
+        padding-bottom: 15px;
+    }
+}
+
+
